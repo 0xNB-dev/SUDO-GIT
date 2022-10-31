@@ -16,7 +16,7 @@ async function Create_Index() {
   const provider1 = new providers.MulticallProvider(
     new ethers.providers.AlchemyProvider(
       "homestead",
-      "qLOZkWjiuADk4xbI4OV6unpZQmcgoRgL"
+      "API_KEY"
     )
   );
 
