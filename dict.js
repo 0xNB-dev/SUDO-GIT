@@ -20,7 +20,7 @@ async function Create_Index() {
     )
   );
 
-  const addr = "0xb16c1342E617A5B6E4b631EB114483FDB289c0A4";
+  const addr = "0xb16c1342E617A5B6E4b631EB114483FDB289c0A4";// Sudo Factory address
   const addr1 = "0x16F71D593bc6446a16eF84551cF8D76ff5973db1";
   const Factory = new ethers.Contract(addr, interface1, provider);
   var events = [];
