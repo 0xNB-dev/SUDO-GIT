@@ -10,7 +10,7 @@ const hexToDecimal = (hex) => parseInt(hex, 16);
 async function Create_Index() {
   const provider = new ethers.providers.AlchemyProvider(
     "homestead",
-    "qLOZkWjiuADk4xbI4OV6unpZQmcgoRgL"
+    "API_KEY"
   );
   // Second provider to use only for batch requests
   const provider1 = new providers.MulticallProvider(
